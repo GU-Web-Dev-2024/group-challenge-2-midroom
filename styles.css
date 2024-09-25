@@ -1,0 +1,10 @@
+body {
+  background-color: beige;
+}
+
+
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 300px;
+}
