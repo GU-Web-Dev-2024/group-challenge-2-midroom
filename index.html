@@ -1,25 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
-
-<form></form>
-    <label for="Recipe_Name">Recipe_Name: </label>
-    <input type="text" name="Recipe_Name"  required>
-    <br>
-    <label for="Text_Area">Text_Area: </label>
-    <input type="text" name="Text_Area"  required>
-    <br>
-    <label for="Num_Input">Num_Input: </label>
-    <input type="number" name="Num_Input"  required>
-    <br>
-    <label for="file">upload some file: </label>
-    <input type="file" name="file"  required>
-    <br>
-    <input type="submit" value="submit">
+<h1>Recipe Submission Form</h1>
+<form class="form-container" action="https://gu-web-dev-2024.github.io/fake-form-submission/submission.html" method="GET">
+    <div class="form-group">
+        <label for="recipe_name">Recipe Name:</label>
+        <input type="text" id="recipe_name" name="recipe_name" required>
+    </div>
+    <div class="form-group">
+        <label for="recipe_description">Recipe Description:</label>
+        <textarea id="recipe_description" name="recipe_description" rows="4" required></textarea>
+    </div>
+    <div class="form-group">
+        <label for="prep_time">Preparation Time (in minutes):</label>
+        <input type="number" id="prep_time" name="prep_time" required>
+    </div>
+    <div class="form-group">
+        <label for="ingredients">List of Ingredients:</label>
+        <input type="text" id="ingredients" name="ingredients" required>
+    </div>
+    <div class="form-group">
+        <label for="instructions">Cooking Instructions:</label>
+        <input type="text" id="instructions" name="instructions" required>
+    </div>
+    <div class="form-group">
+        <label for="recipe_image">Image of the Recipe:</label>
+        <input type="file" id="recipe_image" name="recipe_image" required>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Submit Recipe">
+    </div>
 </form>
+
 </body>
 </html>
