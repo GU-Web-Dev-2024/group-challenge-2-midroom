@@ -7,4 +7,10 @@ body {
 #grid-container {
   display: grid;
   grid-template-columns: 300px;
+  padding: 15px;
+  background-color: white;
+}
+
+#grid-container > div {
+  margin: 15px;
 }
