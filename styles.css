@@ -14,3 +14,11 @@ body {
 #grid-container > div {
   margin: 15px;
 }
+
+h1 {
+  color: blue;
+}
+p {
+  color: rgb(52, 241, 125);
+}
+
